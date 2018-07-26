@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         currentValue = Int(slider.value)
-        startNewRd()
+        startNewGame()
         
         
     }
@@ -40,6 +40,12 @@ class ViewController: UIViewController {
         slider.value = Float(currentValue)
         rnd += 1
         updateLabels()
+    }
+    
+    @IBAction func startNewGame() {
+        score = 0
+        rnd = 0
+        startNewRd()
     }
 
     override func didReceiveMemoryWarning() {
@@ -85,15 +91,18 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "awesome", style: .default, handler: nil)
+        let action = UIAlertAction(title: "awesome", style: .default, handler: {
+            action in
+            self.startNewRd()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
         
-        startNewRd()
-        updateLabels()
+        
     }
+    
 
 }
 
