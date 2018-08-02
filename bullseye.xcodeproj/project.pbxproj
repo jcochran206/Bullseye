@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1087FAB2106841E00549A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1087FAA2106841E00549A9B /* AppDelegate.swift */; };
 		B1087FAD2106841E00549A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1087FAC2106841E00549A9B /* ViewController.swift */; };
 		B1087FB02106841E00549A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1087FAE2106841E00549A9B /* Main.storyboard */; };
 		B1087FB22106841F00549A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1087FB12106841F00549A9B /* Assets.xcassets */; };
 		B1087FB52106841F00549A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1087FB32106841F00549A9B /* LaunchScreen.storyboard */; };
+		B16FB001210A41650031EDD2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16FB000210A41650031EDD2 /* AboutViewController.swift */; };
 		B16FB003210A4FE30031EDD2 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16FB002210A4FE30031EDD2 /* AuthorViewController.swift */; };
-		B1F185E2210FF56B00F19B2D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = B1F185E1210FF56B00F19B2D /* BullsEye.html */; };
-		B1F186102110027500F19B2D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16FB000210A41650031EDD2 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1087FA72106841E00549A9B /* bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1087FAA2106841E00549A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1087FAC2106841E00549A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1087FAF2106841E00549A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1087FB12106841F00549A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,8 +26,6 @@
 		B1087FB62106841F00549A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B16FB000210A41650031EDD2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		B16FB002210A4FE30031EDD2 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
-		B1F185E1210FF56B00F19B2D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
-		B1F1860E210FFD0300F19B2D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +44,6 @@
 			children = (
 				B1087FA92106841E00549A9B /* bullseye */,
 				B1087FA82106841E00549A9B /* Products */,
-				B1F1860D210FFD0300F19B2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +58,7 @@
 		B1087FA92106841E00549A9B /* bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				B1F185E1210FF56B00F19B2D /* BullsEye.html */,
+				B1087FAA2106841E00549A9B /* AppDelegate.swift */,
 				B1087FAC2106841E00549A9B /* ViewController.swift */,
 				B1087FAE2106841E00549A9B /* Main.storyboard */,
 				B16FB002210A4FE30031EDD2 /* AuthorViewController.swift */,
@@ -70,14 +68,6 @@
 				B1087FB62106841F00549A9B /* Info.plist */,
 			);
 			path = bullseye;
-			sourceTree = "<group>";
-		};
-		B1F1860D210FFD0300F19B2D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B1F1860E210FFD0300F19B2D /* WebKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1087FB52106841F00549A9B /* LaunchScreen.storyboard in Resources */,
-				B1F185E2210FF56B00F19B2D /* BullsEye.html in Resources */,
 				B1087FB22106841F00549A9B /* Assets.xcassets in Resources */,
 				B1087FB02106841E00549A9B /* Main.storyboard in Resources */,
 			);
@@ -152,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F186102110027500F19B2D /* AboutViewController.swift in Sources */,
+				B16FB001210A41650031EDD2 /* AboutViewController.swift in Sources */,
 				B1087FAD2106841E00549A9B /* ViewController.swift in Sources */,
+				B1087FAB2106841E00549A9B /* AppDelegate.swift in Sources */,
 				B16FB003210A4FE30031EDD2 /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +222,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MACH_O_TYPE = mh_bundle;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos11.4;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -287,9 +276,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MACH_O_TYPE = mh_bundle;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos11.4;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -303,12 +291,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZF894YKN7;
 				INFOPLIST_FILE = bullseye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = joc.bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -323,7 +309,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZF894YKN7;
 				INFOPLIST_FILE = bullseye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
