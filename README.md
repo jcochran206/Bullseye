@@ -15,4 +15,4 @@ Bullseye is a single player game that allows the user to visually try and get as
 ## Legal
 Application is licensed under MIT License for open source software
 ## ScreenShot of app
-<img src="img/bullseyeapp.png" width="100">
+<img src="img/bullseyeapp.png">
