@@ -7,6 +7,11 @@ Bullseye is a single player game that allows the user to visually try and get as
 - image View
 - custom view controllers for about and author section
 - custom slider
+## Key features
+- reset score
+- information button to learn about game
+- information button to learn about Author
+- scoring system for player that adds score with bonus points when exact 
 ## setup
 - use terminal and git clone to your desktop
 - open in xcode
